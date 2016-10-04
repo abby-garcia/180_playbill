@@ -1,7 +1,15 @@
 /*Title*/
 
 .title{
-	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+}
+
+h3{
+	font-size: 97px;
+}
+
+.playbills{
+	padding-left:50%;
 }
 
 img{

@@ -3,45 +3,45 @@ $('#cats').on('click', 'img', function(){
 });
 
 $('#hamilton').on('click', function(){
-    $(this).addClass("animated hinge");
+    $(this).toggleClass("animated bounceInLeft");
 });
 
 $('#lion').on('click', function(){
-    $(this).addClass("animated rollIn");
+    $(this).toggleClass("animated rollIn");
 });
 
 $('#cabaret').on('click', function(){
-    $(this).addClass("animated zoomInRight");
+    $(this).toggleClass("animated zoomInRight");
 });
 
 $('#jesus').on('click', function(){
-    $(this).addClass("animated slideInUp");
+    $(this).toggleClass("animated slideInUp");
 });
 
 $('#wicked').on('click', function(){
-    $(this).addClass("animated zoomInUp");
+    $(this).toggleClass("animated zoomInUp");
 });
 
 $('#mormon').on('click', function(){
-    $(this).addClass("animated flipInY");
+    $(this).toggleClass("animated flipInY");
 });
 
 $('#feet').on('click', function(){
-    $(this).addClass("animated fadeOutRight");
+    $(this).toggleClass("animated rotateInUpLeft");
 });
 
 $('#heights').on('click', function(){
-    $(this).addClass("animated lightSpeedIn");
+    $(this).toggleClass("animated lightSpeedIn");
 });
 
 $('#roof').on('click', function(){
-    $(this).addClass("animated rollIn");
+    $(this).toggleClass("animated rollIn");
 });
 
 $('#purple').on('click', function(){
-    $(this).addClass("animated zoomInRight");
+    $(this).toggleClass("animated zoomInRight");
 });
 
 $('#opera').on('click', function(){
-    $(this).addClass("animated slideInDown");
+    $(this).toggleClass("animated slideInDown");
 });
